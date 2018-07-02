@@ -1,0 +1,235 @@
+@media screen and (max-width: 1260px) {
+	header .logos a.menu_btn {
+	  display: block;
+	  margin-right: 25px;
+	  padding-right: 0;
+	}
+	header .logos a.menu_btn:after {
+		display: none;
+	}
+	.left_navigation {
+		left: -210px;
+	}
+	.content_side {
+		padding-left: 0;
+		left: 0;
+	}
+	.left_navigation.active {
+		left: 0;
+	}
+	.content_side.active {
+		left: 210px;
+	}
+	.eye_title span.hover {
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (max-width: 1180px) {
+	header {
+		padding: 0 25px;
+	}
+}
+
+
+@media screen and (max-width: 1020px) {
+	.warning_title span.br {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 970px) {
+	.warning_title {
+		font-size: 26px;
+	}
+	.tab_slider_dots {
+		width: 80%;
+		max-width: initial;
+	}
+	.info_block {
+		float: none;
+		width: 100%;
+	}
+	.eye_title span.hover {
+		margin-right: 0;
+	}
+	.warning_title {
+		font-size: 30px;
+	}
+	footer {
+		padding: 50px 15px;
+	}
+	.main_slider .inner_slide {
+		height: initial;
+	}
+	.main_slider .inner_slide .left_side, .main_slider .inner_slide .right_side {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media screen and (max-width: 850px) {
+	footer {
+		padding: 50px 10px;
+	}
+}
+
+
+@media screen and (max-width: 750px) {
+	.eye_block {
+		float: none;
+		width: 100%;
+	}
+	.tab_slider_dots {
+		width: 100%;
+	}
+	.logos .logo {
+		display: none;
+	}
+	.mobile_logo {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.mobile_logo img {
+		max-width: 100%;
+	}
+	.social {
+	    margin-bottom: 10px;
+	}
+	.tab_slide .left_side {
+		display: none;
+	}
+	.tab_slide .right_side {
+		float: none;
+		width: 100%;
+	}
+	.tab_slider_dots {
+		position: static;
+		transform: initial;
+	}
+	.group_risk .tab_container {
+		height: initial;
+		margin-bottom: 30px;
+	}
+	.group_risk .tab_slide {
+		position: static;
+	}
+	.group_risk {
+		padding: 30px 15px;
+	}
+	.group_risk .title_gr {
+		font-size: 30px;
+	}
+	.tab_slide .title_rs {
+		padding-top: 0;
+		font-size: 22px;
+	}
+	.main_slider .inner_slide .title_slide {
+		margin-bottom: 30px;
+		font-size: 30px;
+	}
+	.main_slider .inner_slide .text_slide {
+		font-size: 16px;
+		padding-left: 20px;
+	}
+	#main_slider .slick-arrow {
+		width: 40px;
+		height: 65px;
+	}
+	#main_slider .slick-arrow::before {
+		height: 65px;
+		width: 65px;
+	}
+	#main_slider .slick-arrow::after {
+		width: 26px;
+		height: 24px;
+		background-size: contain;
+		top: calc(50% - 12px);
+	}
+	#main_slider .slick-prev.slick-arrow::after {
+		right: 10px;
+	}
+	#main_slider .slick-next.slick-arrow::after {
+		left: 10px;
+	}
+	.main_slider .inner_rs {
+		width: 100%;
+	}
+	.main_slider .slick-slide img {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.main_slider .inner_slide .img_text {
+		position: static;
+	}
+	#main_slider ul.slick-dots {
+		width: 100%;
+		bottom: 20px;
+	}
+	.test_info {
+		right: 10px;
+		width: 90%;
+	}
+	footer {
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+	}
+	footer .address {
+		display: inline-flex;
+		display: -webkit-inline-box;
+		display: -webkit-inline-flex;
+		display: -ms-inline-flexbox;
+		flex-direction: column;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		order: 3;
+		-webkit-box-ordinal-group: 3;
+		-webkit-order: 3;
+		-ms-flex-order: 3;
+		width: 100%;
+	}
+	.footer_logo,
+	.webdev {
+		margin-bottom: 30px;
+	}
+	.warning_title {
+		font-size: 24px;
+	}
+	.inner_info_block {
+		padding: 40px 30px;
+		height: 480px;
+	}
+	.popup .inner_popup {
+		padding: 25px;
+	}
+}
+
+
+@media screen and (max-width: 500px ) {
+	.warning_title {
+		font-size: 20px;
+	}
+	footer {
+		flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	}
+	footer .address {
+		text-align: center;
+		width: 80%;
+		order: initial;
+		-webkit-box-ordinal-group: initial;
+		-webkit-order: initial;
+		-ms-flex-order: initial;
+		margin-bottom: 30px;
+	} 
+}
